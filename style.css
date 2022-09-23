@@ -1,19 +1,56 @@
 body {
   height: 100vh;
   width: 100vw;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Arial';
-  font-size: 16px;
-  background-color: rgb(176, 144, 252);
+
 }
 
+.MainContainer {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(160deg,#8035f0 0%, #3bd9d9 100%);
+  font-family: "Lato";
+}
 h2 {
   font-size: 150%;
   font-weight: 200;
+  text-align: center;
+}
+.conteiner {
+  width: 100%;
+  height:25rem;
+  max-width:18.75rem;
+  border-radius:0.5rem ;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(0.125rem);
+  border: 0.625rem solid rgba(255, 255, 255, 0.00625);
+  border-right-color: rgba(255, 255, 255, 0.000625);
+  border-bottom-color: rgba(255, 255, 255, 0.000625);
+  box-shadow: 0 1.25rem 1.875rem rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.conteiner-img {
+  width: 100%;
+  height:25rem;
+  max-width:18.75rem;
+  border-radius:0.5rem ;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(0.125rem);
+  border: 0.625rem solid rgba(255, 255, 255, 0.00625);
+  border-right-color: rgba(255, 255, 255, 0.000625);
+  border-bottom-color: rgba(255, 255, 255, 0.000625);
+  box-shadow: 0 1.25rem 1.875rem rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
