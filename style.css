@@ -19,7 +19,7 @@ h2 {
   font-weight: 200;
   text-align: center;
 }
-.conteiner {
+.container {
   width: 100%;
   height:25rem;
   max-width:18.75rem;
@@ -37,20 +37,8 @@ h2 {
   flex-direction: column;
 }
 
-.conteiner-img {
-  width: 100%;
-  height:25rem;
-  max-width:18.75rem;
-  border-radius:0.5rem ;
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(0.125rem);
-  border: 0.625rem solid rgba(255, 255, 255, 0.00625);
-  border-right-color: rgba(255, 255, 255, 0.000625);
-  border-bottom-color: rgba(255, 255, 255, 0.000625);
-  box-shadow: 0 1.25rem 1.875rem rgba(255, 255, 255, 0.05);
-  padding: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.container-img img {
+  width: 120px;
+  float: left;
+  margin: 0 20px 0 20px;
 }
