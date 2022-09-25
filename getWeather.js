@@ -11,7 +11,7 @@ function getUserPosition() {
   function fetchApi(url) {
 
     let city = document.querySelector('.city');
-    let temp = document.querySelector('span');
+    let temp = document.querySelector('.span');
     fetch(url)
     .then((data) => {
       return data.json();

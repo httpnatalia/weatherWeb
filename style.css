@@ -40,14 +40,21 @@ h2 {
 .container:hover {
   height:27 rem;
   width: 20.25rem;
-  float: left;
-  
+  transform: translateY(-3rem)
 }
-
-
 
 .container-img img {
   width: 10rem;
   float: left;
   margin: 0 1rem 0 1rem;
+}
+
+.city {
+  font-style:normal;
+  font-size: 1rem;
+}
+
+.span{
+  font-style:normal;
+  font-size: 2rem;
 }
